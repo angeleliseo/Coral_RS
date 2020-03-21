@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="428678" started-at="2020-03-21T01:28:04Z" finished-at="2020-03-21T01:35:12Z">
+    <groups>
+    </groups>
+    <test name="TestLogin" duration-ms="181826" started-at="2020-03-21T01:28:04Z" finished-at="2020-03-21T01:31:05Z">
+      <class name="com.aut.joyeria.testcases.TestLogin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.aut.joyeria.testcases.TestLogin@67b872]" name="setup" is-config="true" duration-ms="4070" started-at="2020-03-21T01:28:04Z" finished-at="2020-03-21T01:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLoginSuccessCase()[pri:0, instance:com.aut.joyeria.testcases.TestLogin@67b872]" name="testLoginSuccessCase" duration-ms="114565" started-at="2020-03-21T01:28:08Z" finished-at="2020-03-21T01:30:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccessCase -->
+        <test-method status="PASS" signature="clean()[pri:0, instance:com.aut.joyeria.testcases.TestLogin@67b872]" name="clean" is-config="true" duration-ms="11551" started-at="2020-03-21T01:30:02Z" finished-at="2020-03-21T01:30:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method status="PASS" signature="testLoginEmpty()[pri:1, instance:com.aut.joyeria.testcases.TestLogin@67b872]" name="testLoginEmpty" duration-ms="17095" started-at="2020-03-21T01:30:14Z" finished-at="2020-03-21T01:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginEmpty -->
+        <test-method status="PASS" signature="clean()[pri:0, instance:com.aut.joyeria.testcases.TestLogin@67b872]" name="clean" is-config="true" duration-ms="8510" started-at="2020-03-21T01:30:31Z" finished-at="2020-03-21T01:30:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method status="PASS" signature="testLoginBadAccount()[pri:2, instance:com.aut.joyeria.testcases.TestLogin@67b872]" name="testLoginBadAccount" duration-ms="16840" started-at="2020-03-21T01:30:39Z" finished-at="2020-03-21T01:30:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginBadAccount -->
+        <test-method status="PASS" signature="clean()[pri:0, instance:com.aut.joyeria.testcases.TestLogin@67b872]" name="clean" is-config="true" duration-ms="8636" started-at="2020-03-21T01:30:56Z" finished-at="2020-03-21T01:31:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.aut.joyeria.testcases.TestLogin@67b872]" name="teardown" is-config="true" duration-ms="545" started-at="2020-03-21T01:31:05Z" finished-at="2020-03-21T01:31:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.aut.joyeria.testcases.TestLogin -->
+    </test> <!-- TestLogin -->
+    <test name="TestProductDetails" duration-ms="246839" started-at="2020-03-21T01:31:05Z" finished-at="2020-03-21T01:35:12Z">
+      <class name="com.aut.joyeria.testcases.TestProductDetails">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.aut.joyeria.testcases.TestProductDetails@9f9fb0]" name="setup" is-config="true" duration-ms="3581" started-at="2020-03-21T01:31:05Z" finished-at="2020-03-21T01:31:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addOneToCart()[pri:0, instance:com.aut.joyeria.testcases.TestProductDetails@9f9fb0]" name="addOneToCart" duration-ms="147889" started-at="2020-03-21T01:31:09Z" finished-at="2020-03-21T01:33:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addOneToCart -->
+        <test-method status="PASS" signature="clean()[pri:0, instance:com.aut.joyeria.testcases.TestProductDetails@9f9fb0]" name="clean" is-config="true" duration-ms="8541" started-at="2020-03-21T01:33:37Z" finished-at="2020-03-21T01:33:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method status="PASS" signature="addDifferentProductToCart()[pri:1, instance:com.aut.joyeria.testcases.TestProductDetails@9f9fb0]" name="addDifferentProductToCart" duration-ms="33333" started-at="2020-03-21T01:33:45Z" finished-at="2020-03-21T01:34:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDifferentProductToCart -->
+        <test-method status="PASS" signature="clean()[pri:0, instance:com.aut.joyeria.testcases.TestProductDetails@9f9fb0]" name="clean" is-config="true" duration-ms="11103" started-at="2020-03-21T01:34:19Z" finished-at="2020-03-21T01:34:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method status="PASS" signature="addMoreThanOneToCart()[pri:2, instance:com.aut.joyeria.testcases.TestProductDetails@9f9fb0]" name="addMoreThanOneToCart" duration-ms="30589" started-at="2020-03-21T01:34:30Z" finished-at="2020-03-21T01:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMoreThanOneToCart -->
+        <test-method status="PASS" signature="clean()[pri:0, instance:com.aut.joyeria.testcases.TestProductDetails@9f9fb0]" name="clean" is-config="true" duration-ms="11257" started-at="2020-03-21T01:35:00Z" finished-at="2020-03-21T01:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.aut.joyeria.testcases.TestProductDetails@9f9fb0]" name="teardown" is-config="true" duration-ms="545" started-at="2020-03-21T01:35:12Z" finished-at="2020-03-21T01:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.aut.joyeria.testcases.TestProductDetails -->
+    </test> <!-- TestProductDetails -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>

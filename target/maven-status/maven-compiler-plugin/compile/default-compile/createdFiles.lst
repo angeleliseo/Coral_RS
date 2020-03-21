@@ -1,0 +1,4 @@
+com\aut\joyeria\pageobjects\Login.class
+com\aut\joyeria\pageobjects\MainMenu.class
+com\aut\joyeria\pageobjects\HomePage.class
+com\aut\joyeria\pageobjects\ProductDetails.class

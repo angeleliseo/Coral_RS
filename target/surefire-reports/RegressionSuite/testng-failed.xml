@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [RegressionSuite]">
+  <test thread-count="5" verbose="0" name="TestLogin(failed)">
+    <classes>
+      <class name="com.aut.joyeria.testcases.TestLogin">
+        <methods>
+          <include name="clean"/>
+          <include name="teardown"/>
+          <include name="testLoginSuccessCase"/>
+          <include name="setup"/>
+          <include name="testLoginBadAccount"/>
+          <include name="testLoginEmpty"/>
+        </methods>
+      </class> <!-- com.aut.joyeria.testcases.TestLogin -->
+    </classes>
+  </test> <!-- TestLogin(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->

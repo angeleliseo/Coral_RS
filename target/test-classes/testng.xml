@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+  <test thread-count="5" name="TestLogin">
+    <classes>
+      <class name="com.aut.joyeria.testcases.TestLogin"/>      
+    </classes>       
+  </test> <!-- TestLogin -->
+   <test thread-count="5" name="TestProductDetails">
+    <classes>
+    <class name="com.aut.joyeria.testcases.TestProductDetails"/>
+    </classes>
+    </test><!-- Test Product Details -->
+</suite> <!-- RegressionSuite -->
