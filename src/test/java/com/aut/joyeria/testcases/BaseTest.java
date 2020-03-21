@@ -16,7 +16,7 @@ public class BaseTest {
 	}
 	@BeforeClass
 	public void setup() {
-		System.setProperty("webdriver.chrome.driver", "bins/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "bins/chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		options.setHeadless(true);
 		driver = new ChromeDriver(options);		
