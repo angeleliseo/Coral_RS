@@ -15,4 +15,18 @@
       </class> <!-- com.aut.joyeria.testcases.TestLogin -->
     </classes>
   </test> <!-- TestLogin(failed) -->
+  <test thread-count="5" verbose="0" name="TestProductDetails(failed)">
+    <classes>
+      <class name="com.aut.joyeria.testcases.TestProductDetails">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="addOneToCart"/>
+          <include name="addMoreThanOneToCart"/>
+          <include name="addDifferentProductToCart"/>
+          <include name="clean"/>
+        </methods>
+      </class> <!-- com.aut.joyeria.testcases.TestProductDetails -->
+    </classes>
+  </test> <!-- TestProductDetails(failed) -->
 </suite> <!-- Failed suite [RegressionSuite] -->
