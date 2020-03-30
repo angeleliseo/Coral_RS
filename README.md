@@ -1,2 +1,2 @@
-# Coral_RS
-Coral_RS
+# Coral_RS Headless
+Coral Regression Suite
