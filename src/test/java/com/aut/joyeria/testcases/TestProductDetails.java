@@ -1,5 +1,7 @@
 package com.aut.joyeria.testcases;
 import com.aut.joyeria.pageobjects.*;
+import com.gargoylesoftware.htmlunit.WebClient;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -10,7 +12,7 @@ import org.testng.annotations.Test;
 
 public class TestProductDetails extends BaseTest {
 
-	private static WebDriver driver;
+	private static WebClient driver;
 	TestProductDetails (){
 		super(driver);
 	}

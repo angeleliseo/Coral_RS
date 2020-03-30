@@ -1,5 +1,7 @@
 package com.aut.joyeria.testcases;
 import com.aut.joyeria.pageobjects.*;
+import com.gargoylesoftware.htmlunit.WebClient;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -13,7 +15,7 @@ import pageObjects.MainMenu;
 */
 
 public class TestLogin extends BaseTest {
-	private static WebDriver driver;
+	private static WebClient driver;
 	TestLogin(){
 		super(driver);
 	}

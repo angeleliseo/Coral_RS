@@ -3,6 +3,8 @@ package com.aut.joyeria.pageobjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
+
+import com.gargoylesoftware.htmlunit.WebClient;
 /*
 Progress:
 Todos los elementos destacables de menu principal fueron agregados con su debido localizador de elementos
@@ -24,9 +26,9 @@ public class MainMenu {
 	private By combocriterio;
 	private By lnkcarrticon;
 	private By searchResult;
-	private WebDriver driver;
+	private WebClient driver;
 	
-	public MainMenu(WebDriver driver){
+	public MainMenu(WebClient driver){
 		this.lnkinicio = By.xpath("//*[@id=\"menu-item-22\"]/a");
 		this.lnkcontactos =By.xpath("//*[@id=\"menu-item-20\"]/a");
 		this.lnkcarrito = By.xpath("//*[@id=\"menu-item-23\"]/a");
@@ -77,7 +79,7 @@ public class MainMenu {
 	}
 	
 	public void clickInicio() {
-		driver.findElement(getLnkinicio()).click();
+		driver.findElement(getLnkinicio()).click();		
 	}
 	public void clickContactos() {
 		driver.findElement(getlnkcontactos()).click();
